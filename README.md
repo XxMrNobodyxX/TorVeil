@@ -10,6 +10,7 @@ A Python script that monitors real system wide HTTP requests and automatically r
 - DNS resolution through Tor
 - Configurable IP rotation frequency
 
+
 Run the script
 ![image](https://github.com/user-attachments/assets/6a9acc8c-897f-4c64-9410-c3422321f551)
 
