@@ -112,11 +112,5 @@ sudo python3 Torveil.py --ChangeIP 20
 2. DNS queries are redirected to Tor's DNS port (53)
 3. The script monitors real HTTP requests using netstat
 4. After the specified number of requests, it automatically rotates the Tor exit IP
-5. The process continues until the script is terminated
+5. The process continues until the script is terminated which restores your iptables
 
-## Security Notes
-
-- Always run this script with root privileges (sudo)
-- Ensure Tor is properly configured before running the script
-- The script modifies system iptables rules, so use with caution
-- Make sure to properly disable Tor routing when stopping the script
