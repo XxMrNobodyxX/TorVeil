@@ -10,16 +10,28 @@ A Python script that monitors real system wide HTTP requests and automatically r
 - DNS resolution through Tor
 - Configurable IP rotation frequency
 
+## Demonstration
 
-Run the script  
-![image](https://github.com/user-attachments/assets/6a9acc8c-897f-4c64-9410-c3422321f551)  
+Below is a step-by-step visual demonstration of the script in action.
 
-Any tool you use will now have its traffic sent over Tor with the exit node IP automatically changing.  
-![image](https://github.com/user-attachments/assets/00de0b3e-623a-48fe-b21e-1a2607980629)  
+### 1️⃣ Running the Script
+After executing the script, it sets up the Tor proxy and begins monitoring HTTP traffic.
 
-You can see the IP change in tests on my own server using Feroxbuster above.  
-![image](https://github.com/user-attachments/assets/f356a760-8c61-46dc-a6fd-cc1aa180571f)  
+![Running the Script](https://github.com/user-attachments/assets/6a9acc8c-897f-4c64-9410-c3422321f551)
 
+---
+
+### 2️⃣ All Traffic is Routed Through Tor
+Any tool you use will automatically have its traffic sent over Tor, ensuring anonymity.
+
+![Traffic Routed](https://github.com/user-attachments/assets/00de0b3e-623a-48fe-b21e-1a2607980629)
+
+---
+
+### 3️⃣ Dynamic Exit Node IP Rotation
+The script dynamically changes the Tor exit IP after the specified number of requests. Below is a test using Feroxbuster.
+
+![IP Rotation](https://github.com/user-attachments/assets/f356a760-8c61-46dc-a6fd-cc1aa180571f)
 
 
 ## Prerequisites
