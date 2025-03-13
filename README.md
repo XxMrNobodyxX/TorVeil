@@ -22,14 +22,14 @@ After executing the script, it sets up the Tor proxy and begins monitoring HTTP 
 ---
 
 ### 2️⃣ All Traffic is Routed Through Tor
-Any tool you use will automatically have its traffic sent over Tor, ensuring anonymity.
+Any tool you use will automatically have its traffic sent over Tor.
 
 ![Traffic Routed](https://github.com/user-attachments/assets/00de0b3e-623a-48fe-b21e-1a2607980629)
 
 ---
 
 ### 3️⃣ Dynamic Exit Node IP Rotation
-The script dynamically changes the Tor exit IP after the specified number of requests. Below is a test using Feroxbuster.
+The script dynamically changes the Tor exit IP after the specified number of requests. Below is a test using Feroxbuster against my test server.
 
 ![IP Rotation](https://github.com/user-attachments/assets/f356a760-8c61-46dc-a6fd-cc1aa180571f)
 
