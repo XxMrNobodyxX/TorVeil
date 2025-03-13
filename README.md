@@ -11,14 +11,15 @@ A Python script that monitors real system wide HTTP requests and automatically r
 - Configurable IP rotation frequency
 
 
-Run the script
-![image](https://github.com/user-attachments/assets/6a9acc8c-897f-4c64-9410-c3422321f551)
+Run the script  
+![image](https://github.com/user-attachments/assets/6a9acc8c-897f-4c64-9410-c3422321f551)  
 
-Any tool you use will now have it's traffic sent over Tor with the exit node IP automatically changing.
-![image](https://github.com/user-attachments/assets/00de0b3e-623a-48fe-b21e-1a2607980629)
+Any tool you use will now have its traffic sent over Tor with the exit node IP automatically changing.  
+![image](https://github.com/user-attachments/assets/00de0b3e-623a-48fe-b21e-1a2607980629)  
 
-You can see IP change in tests on my own server using Feroxbuster above.
-![image](https://github.com/user-attachments/assets/f356a760-8c61-46dc-a6fd-cc1aa180571f)
+You can see the IP change in tests on my own server using Feroxbuster above.  
+![image](https://github.com/user-attachments/assets/f356a760-8c61-46dc-a6fd-cc1aa180571f)  
+
 
 
 ## Prerequisites
